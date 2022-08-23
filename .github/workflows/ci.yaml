@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
       - run: npm install
       - run: npm test
   lint:
@@ -21,6 +22,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
       - run: npm install
       - run: npm run lint
   release:
@@ -32,6 +34,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
       - run: npm install
       - run: npm run publish
         env:
