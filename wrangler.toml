@@ -5,6 +5,7 @@ compatibility_date="2022-02-26"
 
 account_id = "e5bb6a748970cfeb79072d44b59b4690"
 workers_dev = true
+# required
 node_compat = true
 
 [[rules]]
