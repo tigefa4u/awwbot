@@ -1,10 +1,11 @@
-name = "awwbot"
+name = "tigefa-awwbot"
 main = "./src/server.js"
 type = "javascript"
 compatibility_date="2022-02-26"
 
-account_id = "c21e5aacc2d33c52c2b6589adbe56dc0"
+account_id = "e5bb6a748970cfeb79072d44b59b4690"
 workers_dev = true
+node_compat = true
 
 [[rules]]
 type = "ESModule"
