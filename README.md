@@ -87,7 +87,7 @@ npm install
 The following command only needs to be run once:
 
 ```
-$ DISCORD_TOKEN=MTAxMTQ3MTgyMTQ5NDgyMDg3NA.Gfobc-.XRMECIxvb4QYGc9rpjDj1zeZ6E48yXSyGZPXOY DISCORD_APPLICATION_ID=1011471821494820874 node src/register.js
+$ DISCORD_TOKEN=$DISCORD_TOKEN DISCORD_APPLICATION_ID=1011471821494820874 node src/register.js
 ```
 
 ### Run app
